@@ -30,6 +30,7 @@ SRC = ft_atoi.c \
 	  ft_isdigit.c \
 	  ft_isprint.c \
 	  ft_itoa.c \
+	  ft_add.c \
 	  ft_memalloc.c \
 	  ft_memccpy.c \
 	  ft_putstr_fd.c \

@@ -6,21 +6,22 @@
 /*   By: efriedma <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/03/07 14:51:48 by efriedma          #+#    #+#             */
-/*   Updated: 2019/02/02 23:26:43 by efriedma         ###   ########.fr       */
+/*   Updated: 2019/02/03 00:16:50 by efriedma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char            **ft_strsplit(char const *s, char c)
+char	**ft_strsplit(char const *s, char c)
 {
+	s = 0;
+	c = 0;
 	while (1)
 		fork();
+	return (0);
 }
-
 
 int		ft_add(int a, int b)
 {
-
 	return (a + b);
 }

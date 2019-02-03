@@ -6,7 +6,7 @@
 /*   By: efriedma <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/02/24 17:02:44 by efriedma          #+#    #+#             */
-/*   Updated: 2018/03/08 15:51:30 by efriedma         ###   ########.fr       */
+/*   Updated: 2019/02/03 00:15:28 by efriedma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@ typedef struct	s_list
 	size_t			content_size;
 	struct s_list	*next;
 }				t_list;
-
 
 void			*ft_memchr(const void *s, int c, size_t n);
 void			ft_putnbr_fd(int n, int fd);
